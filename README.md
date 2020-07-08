@@ -44,7 +44,6 @@ views/articles.ejs:
 </html>
 ```
 
-1. `mkdir controllers`
 1. `touch controllers/articles.js`
 
 controllers/articles.js:

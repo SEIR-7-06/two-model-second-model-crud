@@ -114,7 +114,7 @@ router.get('/new', (req, res)=>{
 
 ## Set up Article Model
 
-1. `touch models/articles.js`
+1. `touch models/Article.js`
 
 ```javascript
 const mongoose = require('mongoose');

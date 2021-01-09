@@ -44,7 +44,6 @@ views/articles.ejs:
 </html>
 ```
 
-1. `mkdir controllers`
 1. `touch controllers/articles.js`
 
 controllers/articles.js:
@@ -114,7 +113,7 @@ router.get('/new', (req, res)=>{
 
 ## Set up Article Model
 
-1. `touch models/articles.js`
+1. `touch models/Article.js`
 
 ```javascript
 const mongoose = require('mongoose');
